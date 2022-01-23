@@ -37,7 +37,7 @@ This is how things you need to use the web app and how to install them.
   npm install --global yarn
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+
 
 1. Get a free API_KEY at [https://programmablesearchengine.google.com/cse](https://programmablesearchengine.google.com/cse)
 Get CONTEXT_KEY at https://cse.google.com/cse/create/new
@@ -98,7 +98,7 @@ Don't forget to give the project a star! Thanks again!
 
          
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/cosmicwanderer7/google-clone](https://github.com/cosmicwanderer7/google-clone)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
