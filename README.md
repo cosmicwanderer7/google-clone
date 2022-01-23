@@ -40,7 +40,7 @@ This are things you need to use the web app and how to install them.
 
 
 1. Get a free API_KEY at [https://programmablesearchengine.google.com/cse](https://programmablesearchengine.google.com/cse)
-Get CONTEXT_KEY at https://cse.google.com/cse/create/new
+   Get CONTEXT_KEY at https://cse.google.com/cse/create/new
 
 
 3. Clone the repo
