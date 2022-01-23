@@ -31,7 +31,7 @@ A  functional replica of Google's search page, you can use it for searches. Styl
 
 ### Prerequisites
 
-This is how things you need to use the web app and how to install them.
+This are things you need to use the web app and how to install them.
 * yarn
   ```sh
   npm install --global yarn
