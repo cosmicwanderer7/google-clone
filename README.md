@@ -38,7 +38,7 @@ This are things you need to use the web app and how to install them.
 * yarn
   ```sh
   npm install --global yarn 
-  yarn dev   // to runn local server
+  yarn dev   // to run local server
 ### Installation
 
 
