@@ -35,7 +35,7 @@ This are things you need to use the web app and how to install them.
 * yarn
   ```sh
   npm install --global yarn 
-  yarn dev // to runn local server
+  yarn dev   // to runn local server
 ### Installation
 
 
@@ -58,7 +58,7 @@ This are things you need to use the web app and how to install them.
 6. Create a .env.local file to store your api keys
    ```js
    API_KEY = ' ' //API Key - 
-   CONTEXT_KEY = ' '// Context Key  https://cse.google.com/cse/create/new
+   CONTEXT_KEY = ' ' // Context Key  https://cse.google.com/cse/create/new
 7. Use dummy data for testing
   `const  useDummyData  =  false;`
   //true for development testing (mock results) change it in search.js
