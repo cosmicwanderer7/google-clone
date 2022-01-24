@@ -40,7 +40,7 @@ This are things you need to use the web app and how to install them.
 
 
 
-1. Get a free API_KEY at [https://programmablesearchengine.google.com/cse](https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key)
+1. Get a free API_KEY at [https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key](https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key)
    Get CONTEXT_KEY at https://cse.google.com/cse/create/new
 
 
@@ -50,7 +50,7 @@ This are things you need to use the web app and how to install them.
    ```
    
 4. Add Next
-   ``sh
+   ```sh
    yarn add next react react-dom
 5. Install YARN packages
    ```sh
