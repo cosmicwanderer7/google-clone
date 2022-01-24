@@ -60,7 +60,7 @@ This are things you need to use the web app and how to install them.
   //true for development testing (mock results) change it in search.js
   (Free version of google search api has a quota of 100 search results per day  use dummy data so that you don't exhaust the quota)
 7. To run on local host use
-   ``
+   ```sh
    yarn dev //starts a local server
 
 <p align="right">(<a href="#top">back to top</a>)</p>
