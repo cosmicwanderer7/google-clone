@@ -34,13 +34,13 @@ const search = e => {
      <header className="flex w-full p-5 justify-between text-sm text-gray-800">
         {/*left section*/}
         <div className="flex space-x-4 items-center font-Ubuntu">
-          <a href='https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1'><p className="link">About</p></a>
-          <a href='https://chrome.google.com/webstore'><p className="link">Webstore</p></a>
+          <a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1"><p className="link">About</p></a>
+          <a href="https://chrome.google.com/webstore"><p className="link">Webstore</p></a>
         </div>
 
         {/*right section*/}
         <div className="flex space-x-4 font-Ubuntu items-center">
-          <a href='https://mail.google.com'>
+          <a href="https://mail.google.com">
             <p className="link">Gmail</p>
           </a>
           <a href="https://www.google.com/imghp?hl=en">
