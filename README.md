@@ -41,7 +41,7 @@ This are things you need to use the web app and how to install them.
 
 
 1. Get a free API_KEY at [https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key](https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key)
-   Get CONTEXT_KEY at https://cse.google.com/cse/create/new
+   Get ( Search engine ID ) CONTEXT_KEY at https://cse.google.com/cse/create/new
 
 
 3. Clone the repo
@@ -58,7 +58,7 @@ This are things you need to use the web app and how to install them.
 6. Create a .env.local file to store your api keys
    ```js
    API_KEY = ' ' //API Key - 
-   CONTEXT_KEY = ' ' // Context Key  https://cse.google.com/cse/create/new
+   CONTEXT_KEY = ' ' // Context Key  https://cse.google.com/cse/create/new ( Search engine ID )
 7. Use dummy data for testing
   `const  useDummyData  =  false;`
   //true for development testing (mock results) change it in search.js
