@@ -7,6 +7,9 @@
 ![enter image description here](https://i.imgur.com/rZGgsqr.png)
 A  functional replica of Google's search page, you can use it for searches. Styled with <a href="https://tailwindcss.com/">Tailwind CSS</a> to  Rapidly build and look as close as possible to current google search page, the search results are pulled using Googles <a href="https://developers.google.com/custom-search">Programmable Search Engine</a> and it was build using <a herf="https://nextjs.org/">Next.js </a>the react framework. 
 
+Project is live here https://google-clone-p8mn37r8a-cosmicwanderer7.vercel.app/
+
+Please do not spam searches.
 
 
 
