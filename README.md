@@ -17,7 +17,7 @@ A  functional replica of Google's search page, you can use it for searches. Styl
 * [Next.js](https://nextjs.org/)
 * [Tailwind CSS](https://tailwindcss.com/)
 * [Programmable Search Engine](https://programmablesearchengine.google.com/about/)
-
+* [Yarn](https://yarnpkg.com/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -34,7 +34,8 @@ A  functional replica of Google's search page, you can use it for searches. Styl
 This are things you need to use the web app and how to install them.
 * yarn
   ```sh
-  npm install --global yarn
+  npm install --global yarn 
+  yarn dev // to runn local server
 ### Installation
 
 
@@ -58,6 +59,9 @@ This are things you need to use the web app and how to install them.
   `const  useDummyData  =  false;`
   //true for development testing (mock results) change it in search.js
   (Free version of google search api has a quota of 100 search results per day  use dummy data so that you don't exhaust the quota)
+7. To run on local host use
+   ``
+   yarn dev //starts a local server
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
