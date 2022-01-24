@@ -40,7 +40,7 @@ This are things you need to use the web app and how to install them.
 
 
 
-1. Get a free API_KEY at [https://programmablesearchengine.google.com/cse](https://programmablesearchengine.google.com/cse)
+1. Get a free API_KEY at [https://programmablesearchengine.google.com/cse](https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key)
    Get CONTEXT_KEY at https://cse.google.com/cse/create/new
 
 
@@ -48,18 +48,22 @@ This are things you need to use the web app and how to install them.
    ```sh
    git clone  
    ```
-4. Install YARN packages
+   
+4. Add Next
+   ``sh
+   yarn add next react react-dom
+5. Install YARN packages
    ```sh
    yarn add -D tailwindcss
-5. Create a .env.local file to store your api keys
+6. Create a .env.local file to store your api keys
    ```js
-   API_KEY = ' ' //API Key - https://developers.google.com/custom-search/v1/using_rest
+   API_KEY = ' ' //API Key - 
    CONTEXT_KEY = ' '// Context Key  https://cse.google.com/cse/create/new
-6. Use dummy data for testing
+7. Use dummy data for testing
   `const  useDummyData  =  false;`
   //true for development testing (mock results) change it in search.js
   (Free version of google search api has a quota of 100 search results per day  use dummy data so that you don't exhaust the quota)
-7. To run on local host use
+8. To run on local host use
    ```sh
    yarn dev //starts a local server
 
