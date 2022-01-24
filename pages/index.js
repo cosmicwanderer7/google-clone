@@ -27,13 +27,7 @@ const search = e => {
         <title>Google</title>
         <meta name="Google search clone" content="A functional replica of Google's search page, you can use it for searches. Styled with Tailwind CSS to Rapidly build and look as close as possible to current google search page, the search results are pulled using Googles Programmable Search Engine and it was build using Next.js the react framework." />
         <link rel="icon" href="/favicon.ico" />
-       <link rel="preconnect" href="https://fonts.googleapis.com" />
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-       <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet" /> 
-       <link rel="preconnect" href="https://fonts.googleapis.com" />
-       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-       <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" /> 
-        
+       
       </Head>
       {/* header */}
     
