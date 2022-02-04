@@ -7,6 +7,9 @@
 ![enter image description here](https://i.imgur.com/rZGgsqr.png)
 A  functional replica of Google's search page, you can use it for searches. Styled with <a href="https://tailwindcss.com/">Tailwind CSS</a> to  Rapidly build and look as close as possible to current google search page, the search results are pulled using Googles <a href="https://developers.google.com/custom-search">Programmable Search Engine</a> and it was build using <a herf="https://nextjs.org/">Next.js </a>the react framework. 
 
+Project is live here https://google-clone-p8mn37r8a-cosmicwanderer7.vercel.app/
+
+Please do not spam searches.
 
 
 
@@ -17,7 +20,7 @@ A  functional replica of Google's search page, you can use it for searches. Styl
 * [Next.js](https://nextjs.org/)
 * [Tailwind CSS](https://tailwindcss.com/)
 * [Programmable Search Engine](https://programmablesearchengine.google.com/about/)
-
+* [Yarn](https://yarnpkg.com/)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -31,33 +34,41 @@ A  functional replica of Google's search page, you can use it for searches. Styl
 
 ### Prerequisites
 
-This is how things you need to use the web app and how to install them.
+This are things you need to use the web app and how to install them.
 * yarn
   ```sh
-  npm install --global yarn
+  npm install --global yarn 
+  yarn dev   // to run local server
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API_KEY at [https://programmablesearchengine.google.com/cse](https://programmablesearchengine.google.com/cse)
-Get CONTEXT_KEY at https://cse.google.com/cse/create/new
+
+1. Get a free API_KEY at [https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key](https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key)
+   Get ( Search engine ID ) CONTEXT_KEY at https://cse.google.com/cse/create/new
 
 
 3. Clone the repo
    ```sh
-   git clone  
+   git clone https://github.com/cosmicwanderer7/google-clone.git
    ```
-4. Install YARN packages
+   
+4. Add Next
+   ```sh
+   yarn add next react react-dom
+5. Install YARN packages
    ```sh
    yarn add -D tailwindcss
-5. Create a .env.local file to store your api keys
+6. Create a .env.local file to store your api keys
    ```js
-   API_KEY = ' ' //API Key - https://developers.google.com/custom-search/v1/using_rest
-   CONTEXT_KEY = ' '// Context Key  https://cse.google.com/cse/create/new
-6. Use dummy data for testing
+   API_KEY = ' ' //API Key - 
+   CONTEXT_KEY = ' ' // Context Key  https://cse.google.com/cse/create/new ( Search engine ID )
+7. Use dummy data for testing
   `const  useDummyData  =  false;`
   //true for development testing (mock results) change it in search.js
   (Free version of google search api has a quota of 100 search results per day  use dummy data so that you don't exhaust the quota)
+8. To run on local host use
+   ```sh
+   yarn dev //starts a local server
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -98,7 +109,7 @@ Don't forget to give the project a star! Thanks again!
 
          
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/cosmicwanderer7/google-clone](https://github.com/cosmicwanderer7/google-clone)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
