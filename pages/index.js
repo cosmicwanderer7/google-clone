@@ -25,7 +25,10 @@ export default function Home() {
     <div className="flex flex-col items-center h-screen ">
       <Head>
         <title>Google</title>
-        <meta name="GoogleSearch" content="A functional replica of Google's search page, you can use it for searches. Styled with Tailwind CSS to Rapidly build and look as close as possible to current google search page, the search results are pulled using Googles Programmable Search Engine and it was build using Next.js the react framework." />
+        <meta
+          name="GoogleSearch"
+          content="A functional replica of Google's search page, you can use it for searches. Styled with Tailwind CSS to Rapidly build and look as close as possible to current google search page, the search results are pulled using Googles Programmable Search Engine and it was build using Next.js the react framework."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* header */}
@@ -80,7 +83,10 @@ export default function Home() {
           />
           <MicrophoneIcon className="h-5" />
         </div>
-        <div className="flex flex-col w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4 font-Ubuntu">
+        <div
+          className="flex flex-    
+         w-1/2 space-y-2 justify-center mt-8 sm:space-y-0 sm:flex-row sm:space-x-4 font-Ubuntu"
+        >
           <button onClick={search} className="btn">
             Google Search
           </button>
@@ -88,6 +94,14 @@ export default function Home() {
           <button className="btn">
             <a href="https://www.google.com/doodles"> I&apos;m Feeling Lucky</a>
           </button>
+        </div>
+
+        <div className="flex link justify-center text-sm mt-7 pr-1 text-blue-700 items-center md:col-span-2 lg:col-span-1 lg:col-start-2 font-Ubuntu">
+          <img src="google-account-security.png" className="h-5 px-1 "></img>{" "}
+          <a href="https://myaccount.google.com/security-checkup">
+            {" "}
+            Take a 2 Minute Google Security Checkup.{" "}
+          </a>
         </div>
       </form>
 
