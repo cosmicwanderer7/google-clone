@@ -23,7 +23,7 @@ Please do not spam searches.
 * [Yarn](https://yarnpkg.com/)
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
 
 
@@ -60,7 +60,7 @@ This are things you need to use the web app and how to install them.
    yarn 
 6. Create a .env.local file to store your api keys
    ```js
-   API_KEY = ' ' //API Key - 
+   API_KEY = ' ' //API Key  https://developers.google.com/custom-search/v1/introduction#identify_your_application_to_google_with_api_key
    CONTEXT_KEY = ' ' // Context Key  https://cse.google.com/cse/create/new ( Search engine ID )
 7. Use dummy data for testing
   `const  useDummyData  =  false;`
@@ -70,7 +70,7 @@ This are things you need to use the web app and how to install them.
    ```sh
    yarn dev //starts a local server
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
 
 
@@ -93,7 +93,7 @@ Don't forget to give the project a star! Thanks again!
 5. Push to the Branch 
 6. Open a Pull Request
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
 
 
@@ -111,7 +111,7 @@ Don't forget to give the project a star! Thanks again!
 
 Project Link: [https://github.com/cosmicwanderer7/google-clone](https://github.com/cosmicwanderer7/google-clone)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#about-the-project">back to top</a>)</p>
 
 
 
