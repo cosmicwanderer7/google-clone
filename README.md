@@ -55,9 +55,9 @@ This are things you need to use the web app and how to install them.
 4. Add Next
    ```sh
    yarn add next react react-dom
-5. Install YARN packages
+5. Install all dependencies
    ```sh
-   yarn add -D tailwindcss
+   yarn 
 6. Create a .env.local file to store your api keys
    ```js
    API_KEY = ' ' //API Key - 
